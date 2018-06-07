@@ -1,0 +1,85 @@
+header {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 500%;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  font-stretch: ultra-expande;
+}
+
+.date {
+  font-family: Copperplate;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-align: center;
+  display: block;
+  font-size: 30px;
+}
+
+.mainarticle {
+  display: block;
+  font-family: Cambria;
+  font-size: 30px;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+.leftarticle {
+  display: flex;
+  flex-direction: column;
+  position: absolute 200 500;
+}
+
+.rightarticle {
+  display: grid;
+  grid-auto-columns: auto;
+}
+
+.mainimg {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.card {
+  box-shadow: 0 3px 5px blue;
+  background-color: lightseagreen;
+  display: grid;
+}
+
+.card-container {
+    display: grid;
+    padding: rem;
+    grid-template-columns: repeat(4, 350px);
+    grid-area: auto;
+    grid-gap: 1rem;
+    grid-row: span;
+}
+
+.card-title {
+  font-size: 30px;
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+
+.card-description {
+  padding: 1.2rem;
+  line-height: 1.6em;
+}
+
+.button {
+  display: block;
+  background-color: lightgoldenrodyellow;
+  padding: 10px 20px;
+  color: goldenrod;
+  text-align: center;
+  transition: 300ms ease-out;
+  text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
