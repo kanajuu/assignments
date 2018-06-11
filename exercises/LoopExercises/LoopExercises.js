@@ -37,3 +37,18 @@ let findArr = function (arr) {
     console.log('We didn\'t make it to 42! Shit!');
   }
 };
+
+// #4
+
+
+const nums = [1, 34, 45, 56, 67, 78, 89, 90, 12, 34, 55, 66, 77, 88, 39, 62, 35, 63];
+
+let getMin = function (arr) {
+  var newMin = Infinity;
+  for (let i = 0; i <= arr.length; i++) {
+    if (arr[i] <= newMin) {
+      newMin = arr[i]
+    }
+    return newMin;
+  }
+}
