@@ -1,0 +1,14 @@
+{
+  "name": "npmintro",
+  "version": "1.0.0",
+  "description": "npm intro file",
+  "main": "nodetest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
+}

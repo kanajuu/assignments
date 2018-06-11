@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Mario's Pest Control</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  
+  <nav>
+    <span>
+      Home
+    </span>
+    <span>
+      About
+    </span>
+    <span>
+      Contact
+    </span>
+    <span>
+      Blog
+    </span>
+  </nav>
+
+  <div class="title">Mario's Pest Control</div>
+
+  <div class="cardbox">
+    <div class="card">
+      <div class="name">Hammer Bros</div>
+      <img src="" alt="" class="img">
+      <div class="desc">Description</div>
+      <div class="amt">Amount to Exterminate</div>
+      <input type="number" id="amount1" class="input1">
+    </div>
+
+    <div class="card">
+      <div class="name">Boo</div>
+      <img src="" alt="" class="img">
+      <div class="desc">Description</div>
+      <div class="amt">Amount to Exterminate</div>
+      <input type="number" id="amount2" class="input2">
+    </div>
+
+    <div class="card">
+      <div class="name">Koopa</div>
+      <img src="" alt="" class="img">
+      <div class="desc">Description</div>
+      <div class="amt">Amount to Exterminate</div>
+      <input type="number" id="amount3" class="input3">
+    </div>
+  </div>
+
+  <div class="totalbox">
+    <div class="totaltext">The total is:</div>
+    <div class="totaltext" id="totalprice"></div>
+    <button class="totalbutton" id="button1">Calculate Total</button>
+  </div>
+
+  <div class="social">
+    Social Media img links
+  </div>
+
+  <footer>
+    <div class="footertext">Company Email </div>
+    <div class="footertext">Phone Number</div>
+    <div class="footertext"> Mario's Cell #</div>
+    <div class="footertext">Company Address</div>
+    <div class="footertext">All Rights Reserved (Copyright) </div>
+  </footer>
+
+  <script src="pestcontrol.js"></script>
 </body>
+
 </html>
