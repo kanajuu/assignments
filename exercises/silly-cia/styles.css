@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 100px 170px;
+  background-color: skyblue;
+}
+
+.container {
+  background-color: cyan;
+  padding: 100px 20px;
+  box-shadow: 0 3px 5px black;
+  font-size: 28px;
+  margin: 50px 140px;
+}
+
+.heading {
+  color: rgb(3, 53, 3);
+  text-align: center;
+  font-size: 32px;
+}
+
+.heading2 {
+  color: rgb(47, 38, 104);
+  text-align: center;
+  font-size: 26px;
+  margin: 20px;
+}
+
+img {
+  float: left;
+  width: 40%;
+  padding: 10px 10px;
+}
+
+.hello:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}

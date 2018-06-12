@@ -1,0 +1,23 @@
+{ 
+  "workbench.colorTheme": "TronLegacy",
+  "editor.fontFamily": "SourceCodeRoman-Medium",
+  "editor.fontSize": 14,
+  "explorer.confirmDelete": false,
+  "workbench.colorCustomizations": {
+    "sideBar.background": "#140b25",
+    "sideBar.border": "#140b25",
+    "sideBar.foreground": "#bb420a",
+    "sideBar.dropBackground": "#172b0a",
+    "sideBarSectionHeader.background": "#020e11",
+    "sideBarTitle.foreground": "#63e20e",
+    "sideBarSectionHeader.foreground": "#8545ec",
+    "scrollbarSlider.activeBackground": "#04440c",
+    "editor.background": "#140b25",
+    "terminal.selectionBackground": "#14131d",
+    "list.activeSelectionBackground": "#9e0808",
+    "activityBar.background": "#580101",
+    "activityBarBadge.foreground": "#8d0909",
+    "activityBarBadge.background": "#e45757"
+
+  }
+}

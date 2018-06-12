@@ -1,4 +1,4 @@
-var fizzbuzz = function() {
+var fizzbuzz = function () {
   var arr = [];
   for (let i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
@@ -12,4 +12,4 @@ var fizzbuzz = function() {
     }
   }
   return arr;
-};
+}
