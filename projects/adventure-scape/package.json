@@ -1,0 +1,14 @@
+{
+  "name": "adventure-scape",
+  "version": "1.0.1",
+  "description": "Text-based console game built using readline sync.",
+  "main": "game.js",
+  "scripts": {
+    "test": "none"
+  },
+  "author": "Daniel Prows",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
+}

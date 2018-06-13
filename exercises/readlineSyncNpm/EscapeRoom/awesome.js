@@ -1,1 +1,0 @@
-choices[savedChoice] === choices[3]
