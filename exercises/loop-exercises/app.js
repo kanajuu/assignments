@@ -52,3 +52,5 @@ let getMin = function (arr) {
     return newMin;
   }
 }
+
+console.log(getMin(nums));

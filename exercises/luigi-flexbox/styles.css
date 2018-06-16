@@ -1,0 +1,67 @@
+* {
+  font-family: SuperMarioGalaxy;
+  margin: 0;
+}
+
+@font-face {
+  font-family: SuperMarioGalaxy;
+  src: url(./SuperMario256\ 2.ttf);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: yellowgreen;
+  height: 120px;
+}
+
+.heading {
+  display: flex;
+  color: red;
+  font-size: 60px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.luigi {
+  display: flex;
+  background-color: red;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+  height: 350px;
+}
+
+.text1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: red;
+  font-size: 44px;
+  padding: 20px;
+  background-color: skyblue;
+  height: 100px;
+}
+
+.text2 {
+  display: flex;
+  flex-direction: row;
+  color: red;
+  padding-bottom: 20px;
+  font-size: 26px;
+  text-align: center;
+  background-color: skyblue;
+  height: 80px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: rgb(159, 224, 30);
+  height: 120px;
+}
+
+.mush {
+  width: 100px;
+  margin: 10px;
+}

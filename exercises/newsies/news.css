@@ -16,32 +16,30 @@ header {
   font-size: 30px;
 }
 
+.mainimg {
+  width: 40%;
+  position: absolute;
+  top: 210px;
+  left: 500px;
+}
+
 .mainarticle {
-  display: block;
   font-family: Cambria;
   font-size: 30px;
-  margin-right: 25%;
-  margin-left: 25%;
+  width: 50%;
+  position: absolute;
+  top: 800px;
+  left: 450px;
 }
 
 .leftarticle {
-  display: flex;
-  flex-direction: column;
-  position: absolute 200 500;
+  width: 25%;
+  float: left;
 }
 
 .rightarticle {
-  display: grid;
-  grid-auto-columns: auto;
-}
-
-.mainimg {
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3%;
-  margin-bottom: 3%;
+  width: 25%;
+  float: right;
 }
 
 .card {
@@ -51,12 +49,9 @@ header {
 }
 
 .card-container {
-    display: grid;
-    padding: rem;
-    grid-template-columns: repeat(4, 350px);
-    grid-area: auto;
-    grid-gap: 1rem;
-    grid-row: span;
+
+  width: 30%;
+  
 }
 
 .card-title {
@@ -72,7 +67,7 @@ header {
 
 .button {
   display: block;
-  background-color: lightgoldenrodyellow;
+  background-color: rgb(66, 66, 6);
   padding: 10px 20px;
   color: goldenrod;
   text-align: center;
@@ -80,6 +75,3 @@ header {
   text-decoration: none;
 }
 
-img {
-    max-width: 100%;
-}

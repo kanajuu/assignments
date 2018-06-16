@@ -1,8 +1,8 @@
 {
-  "name": "npmintro",
+  "name": "escape-room",
   "version": "1.0.0",
-  "description": "npm intro file",
-  "main": "nodetest.js",
+  "description": "escape room javascript game ",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,0 +1,174 @@
+body {
+  background-image: url('./cubeww.png');
+}
+
+.box1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px;
+  margin-top: 10px;
+  padding: 60px;
+  background-image: url('http://on-desktop.com/fony/100158-wallpaper-background-of-red-cubic-structures.html');
+}
+
+@keyframes onHoverBoxA {
+  0% {
+    transform: translateY(0px) translateX(0px);
+  }
+  50% {
+    transform: translateY(452px) translateX(0px);
+  }
+  100% {
+    transform: translateX(495px) translateY(452px);
+  }
+}
+
+@keyframes onHoverBoxB {
+  0% {
+    transform: translateY(0px) translateX(0px);
+  }
+  50% {
+    transform: translateY(452px) translateX(0px);
+  }
+  100% {
+    transform: translateX(495px) translateY(452px);
+  }
+}
+
+@keyframes onHoverBoxC {
+  0% {
+    transform: translateY(0px) translateX(0px);
+  }
+  50% {
+    transform: translateY(452px) translateX(0px);
+  }
+  100% {
+    transform: translateX(495px) translateY(452px);
+  }
+}
+
+@keyframes onHoverBoxD {
+  0% {
+    transform: translateY(0px) translateX(0px);
+  }
+  50% {
+    transform: translateY(452px) translateX(0px);
+  }
+  100% {
+    transform: translateX(495px) translateY(452px);
+  }
+}
+
+.box2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px;
+  background-image: url('http://on-desktop.com/fony/100158-wallpaper-background-of-red-cubic-structures.html');
+  padding: 60px;
+}
+
+.boxa {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+  margin: auto;
+  border: 1px solid #333;
+  box-shadow: 10px 10px 5px 0 rgb(226, 22, 22);
+  border-radius: 3%;
+  color: transparent;
+  text-align: center;
+}
+
+.boxa:hover {
+  animation-name: onHoverBoxA;
+  animation-duration: 5000ms;
+}
+
+.boxb {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  margin: auto;
+  border: 1px solid #333;
+  box-shadow: 10px 10px 5px 0 rgb(226, 22, 22);
+  border-radius: 4%;
+  color: transparent;
+  text-align: center;
+}
+
+.boxb:hover {
+  animation-name: onHoverBoxB;
+  animation-duration: 5000ms;
+}
+
+.boxc {
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  margin: auto;
+  border: 1px solid #333;
+  box-shadow: 10px 10px 5px 0 rgb(226, 22, 22);
+  border-radius: 5%;
+  color: transparent;
+  text-align: center;
+}
+
+.boxc:hover {
+  animation-name: onHoverBoxC;
+  animation-duration: 5000ms;
+}
+
+.boxd {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  margin: auto;
+  border: 1px solid #333;
+  box-shadow: 10px 10px 5px 0 rgb(226, 22, 22);
+  border-radius: 6%;
+  color: transparent;
+  text-align: center;
+}
+
+.boxd:hover {
+  animation-name: onHoverBoxD;
+  animation-duration: 5000ms;
+}
+
+.boxe {
+  width: 300px;
+  height: 300px;
+  background-color: orange;
+  margin: auto;
+  border: 1px solid #333;
+  box-shadow: 10px 10px 5px 0 rgb(226, 22, 22);
+  border-radius: 7%;
+  color: transparent;
+  text-align: center;
+}
+
+.boxe:hover {
+  transition: none;
+}
+
+.boxf {
+  width: 300px;
+  height: 300px;
+  background-color: lightsalmon;
+  margin: auto;
+  border: 1px solid #333;
+  box-shadow: 10px 10px 5px 0 rgb(226, 22, 22);
+  border-radius: 8%;
+  color: transparent;
+  text-align: center;
+}
+
+.boxf:start {
+  transition: none;
+}
+
+/* transition: [transition-property] [transition-duration] {transition-timer]
+  prefix it with two lines of webkit and moz for further browser cross-functionality
+  like: -webkit-transition: [......] or -moz-transition: [.....]
